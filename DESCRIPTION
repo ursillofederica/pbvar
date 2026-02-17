@@ -1,0 +1,22 @@
+Package: pbvar
+Title: Bayesian Panel VAR Estimation with Hierarchical Priors
+Version: 0.1.0
+Authors@R: 
+    person("Federica", "Ursillo", , "federica.ursillo@studenti.unipd.it", role = c("aut", "cre"))
+Description: Tools to estimate Bayesian panel vector autoregressions (PBVAR)
+    using hierarchical priors and MCMC sampling. The package includes functions
+    for posterior summaries and impulse response functions at global level, plus an example G7 panel dataset.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+    coda
+Suggests:
+    knitr,
+    rmarkdown,
+    lattice
+VignetteBuilder: knitr
+Depends: 
+    R (>= 3.5)
+LazyData: true
